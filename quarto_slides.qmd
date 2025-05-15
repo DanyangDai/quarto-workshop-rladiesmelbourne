@@ -1,0 +1,324 @@
+---
+title: "Creating simple websites with Quarto + GitHub Pages"
+subtitle: "Introduction to Quarto for building websites"
+author: "[Kathleen Zeglinski](https://github.com/kzeglinski)\\  & \\
+[Danyang Dai](https://github.com/DanyangDai)"
+format: 
+  rladies-revealjs:
+    footer: "[R-Ladies+ Melbourne](https://r-ladiesmelbourne.github.io)"
+incremental: false
+embed-resources: true
+---
+
+## What is Quarto? 
+
+
+::: {.fragment .fade-in}
+
+Quarto is an open-source scientific and technical publishing system built to help create high-quality reproducible documents, presentations, websites and more. 
+
+:::
+
+<br/>
+
+::: {.fragment .fade-in}
+
+Does it sound somewhat familiar?
+:::
+
+
+<br/>
+
+::: {.fragment .fade-in}
+
+
+::: {layout-ncol=2}
+
+Yes! Quarto is the next generation of R Markdown. 
+
+
+
+![](figures/rmd_qm.png){width=300px}
+:::
+
+:::
+
+
+## Building website with Quarto 
+
+
+::: {.fragment .fade-in}
+
+
+Today, we are going to focus on building website using Quarto. For more detailed information, see <https://quarto.org/docs/websites/>.
+
+:::
+
+## Why Quarto 
+
+
+::: {.fragment .fade-in}
+
+Before Quarto time, `blogdown`[^1] and `distill` were used for building and publishing website. 
+
+
+:::
+
+<br/>
+
+
+::: {.fragment .fade-in}
+
+![](figures/blogdown.png){fig-align="center" width=600px height=300px} 
+
+
+:::
+
+
+
+[^1]: For more information: [Blogdown Website workshop](https://blogdownworkshop.netlify.app/#1)
+
+
+## Why Quarto 
+
+
+Coding is too hard, I want to use [WordPress](https://wordpress.com)!
+
+
+::: {.fragment .fade-in}
+
+While WordPress is open-source and free, you will need to pay for hosting to publish your website. 
+
+:::
+
+
+## Why Quarto 
+
+::: {.fragment .fade-in}
+
+Actually... 
+
+:::
+
+::: {.fragment .fade-in}
+
+
+Quarto Website is super easy!
+
+:::
+
+::: {.fragment .fade-in}
+
+![](figures/quarto_page.jpeg){fig-align="center" width=600px height=300px} 
+
+:::
+
+
+## More reasons for using Quarto:
+
+### Cool examples for some website made with Quarto 
+
+<br/>
+
+::: {.fragment .fade-in}
+
+[R-Ladies Melbourne](https://r-ladiesmelbourne.github.io)
+
+:::
+<br/>
+
+::: {.fragment .fade-in}
+
+[WEHI R Course](https://kzeglinski.github.io/new_wehi_r_course/) 
+:::
+
+<br/>
+
+::: {.fragment .fade-in}
+
+[PhD Diary](https://danyangdai.github.io/PhD_diary/)
+
+:::
+
+
+## You are just a few click away from having your own website!
+
+To create a Quarto website, follow the instruction below: 
+
+
+
+
+![](figures/gif/output1.gif)
+
+## Quarto basic for building website 
+
+![](figures/2.png)
+
+## Quarto basic for building website 
+
+![](figures/3.png){fig-align="center" width=900px height=500px} 
+
+YAML: Controls configuration, navigation, metadata
+
+
+## Quarto basic for building website 
+
+
+![](figures/4.png)
+
+This part is the same for any qmd or rmd file. Markdown is used for base syntax for content writing. 
+
+## Quarto basic for building website 
+
+![](figures/5.png)
+
+Within this R chunk, everything is the same with writing a R script. 
+
+## What do all the different files do?
+
+::: {layout-ncol=2}
+
+::: {.fragment .fade-in}
+
+![](figures/6.png){fig-align="center" width=500px height=500px} 
+::: 
+
+::: {.fragment .fade-in}
+
+
+- The `index.qmd` file is essential. When a `qmd` file is named as `index`, it will automatically be used as the home page. 
+
+- The `index.qmd` file must be named exactly as it is `index.qmd`. 
+
+- The `index.qmd` file must be placed in the root folder next to the `_quarto.yml`. 
+
+:::
+
+
+:::
+
+
+## What do all the different files do?
+
+::: {layout-ncol=2}
+![](figures/7.png){fig-align="center" width=500px height=500px} 
+
+::: {.fragment .fade-in}
+
+- The `about.qmd` is the the About page in your website. 
+
+:::
+
+:::
+
+## What do all the different files do?
+
+::: {layout-ncol=2}
+
+::: {.fragment .fade-in}
+
+![](figures/8.png){fig-align="center" width=500px height=500px} 
+:::
+
+::: {.fragment .fade-in} 
+
+- The `_quarto.yml` is the control center for our Quarto website. 
+
+- The `_quarto.yml` uses YAML language and unifies all pages under one layout and configuration. 
+:::
+
+
+:::
+
+
+## What do all the different files do?
+
+::: {layout-ncol=2}
+
+![](figures/9.png){fig-align="center" width=500px height=500px} 
+
+::: {.fragment .fade-in}
+
+- The `styles.css` is a custom CSS file to help make your website pretty. 
+
+- This is where you can get creative and customised your website. 
+
+:::
+
+
+::: 
+
+## What do all the different files do?
+
+::: {layout-ncol=2}
+
+
+![](figures/10.png){fig-align="center" width=500px height=500px}   
+
+
+
+::: {.fragment .fade-in}
+
+- This `_site` folder will be automatically generated once you clicked the `Render` function. 
+
+
+- ❌ DO NOT edit anything in the `_site` folder. But you can delete and re-render.
+
+:::
+
+::: 
+
+
+## How do it all come together?
+
+```
+my-website/
+├── _quarto.yml       ← 🔧 Configuration file
+├── styles.css        ← 🎨 Custom styling (optional)
+├── index.qmd         ← 🏠 Home page
+├── about.qmd         ← 📄 Additional page
+└── _site/            ← 🌐 Rendered website output (auto-generated)
+
+```
+
+The goal today is to make sure that everyone will have a working website published on Github Page to take home!
+
+
+## Some code for your terminal 
+
+- To clone the Github Repo: 
+```
+git clone https://github.com/yourusername/my-website.git
+```
+
+
+- Push to Github:
+
+```
+git add .
+git commit -m "Initial Quarto site"
+git push origin main
+
+```
+
+Alternatively, you can use GitHub Desktop for Git management. 
+
+- Publish website
+
+```
+quarto publish gh-pages
+```
+## More about Quarto 
+
+::: {.fragment .fade-in}
+
+- To learn more about Quarto see <https://quarto.org>.  
+
+- To learn more about building website with Quarto see <https://quarto.org/docs/websites/>.  
+:::
+
+
+## Acknowledgment 
+
+
+
