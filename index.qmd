@@ -321,4 +321,33 @@ quarto publish gh-pages
 ## Acknowledgment 
 
 
+::: {.fragment .fade-in}
+
+- We would like to thank DiUS for hosting us. 
+
+:::
+
+
+
+::: {.fragment .fade-in}
+
+- We would like to thank the Qurto developing team for making it possible!
+
+:::
+
+::: {.fragment .fade-in}
+
+- [Daidai: danyang.dai@uq.edu.au](https://github.com/DanyangDai)
+
+- [Kathleen: zeglinski.k@wehi.edu.au](https://github.com/kzeglinski)
+
+:::
+
+
+
+## Let's Get to Work! 
+
+
+<img src="https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif" style="width:60%"/>
+
 
