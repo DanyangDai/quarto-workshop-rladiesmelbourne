@@ -1,1 +1,0 @@
-Sitemap: https://DanyangDai.github.io/quarto-workshop-rladiesmelbourne/sitemap.xml
