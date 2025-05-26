@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "slides.html#what-is-quarto",
+    "href": "slides.html#what-is-quarto",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\n\nQuarto is an open-source scientific and technical publishing system built to help create high-quality reproducible documents, presentations, websites and more.\n\n\n\nDoes it sound somewhat familiar?\n\n\n\n\n\n\n\n\n\nYes! Quarto is the next generation of R Markdown."
+  },
+  {
+    "objectID": "slides.html#building-website-with-quarto",
+    "href": "slides.html#building-website-with-quarto",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Building website with Quarto",
+    "text": "Building website with Quarto\n\nToday, we are going to focus on building website using Quarto. For more detailed information, see https://quarto.org/docs/websites/."
+  },
+  {
+    "objectID": "slides.html#why-quarto",
+    "href": "slides.html#why-quarto",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Why Quarto",
+    "text": "Why Quarto\n\nBefore Quarto time, blogdown1 and distill were used for building and publishing website.\n\n\n\n\n\n\n\n\n\nFor more information: Blogdown Website workshop"
+  },
+  {
+    "objectID": "slides.html#why-quarto-1",
+    "href": "slides.html#why-quarto-1",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Why Quarto",
+    "text": "Why Quarto\nCoding is too hard, I want to use WordPress!\n\nWhile WordPress is open-source and free, you will need to pay for hosting to publish your website."
+  },
+  {
+    "objectID": "slides.html#why-quarto-2",
+    "href": "slides.html#why-quarto-2",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Why Quarto",
+    "text": "Why Quarto\n\nActually…\n\n\nQuarto Website is super easy!"
+  },
+  {
+    "objectID": "slides.html#more-reasons-for-using-quarto",
+    "href": "slides.html#more-reasons-for-using-quarto",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "More reasons for using Quarto:",
+    "text": "More reasons for using Quarto:\nCool examples for some website made with Quarto\n\n\nR-Ladies Melbourne\n\n\n\nWEHI R Course\n\n\n\nPhD Diary"
+  },
+  {
+    "objectID": "slides.html#you-are-just-a-few-click-away-from-having-your-own-website",
+    "href": "slides.html#you-are-just-a-few-click-away-from-having-your-own-website",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "You are just a few click away from having your own website!",
+    "text": "You are just a few click away from having your own website!\nTo create a Quarto website, follow the instruction below:"
+  },
+  {
+    "objectID": "slides.html#quarto-basic-for-building-website",
+    "href": "slides.html#quarto-basic-for-building-website",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Quarto basic for building website",
+    "text": "Quarto basic for building website"
+  },
+  {
+    "objectID": "slides.html#quarto-basic-for-building-website-1",
+    "href": "slides.html#quarto-basic-for-building-website-1",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Quarto basic for building website",
+    "text": "Quarto basic for building website\n\n\n\n\n\nYAML: Controls configuration, navigation, metadata"
+  },
+  {
+    "objectID": "slides.html#quarto-basic-for-building-website-2",
+    "href": "slides.html#quarto-basic-for-building-website-2",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Quarto basic for building website",
+    "text": "Quarto basic for building website\n\nThis part is the same for any qmd or rmd file. Markdown is used for base syntax for content writing."
+  },
+  {
+    "objectID": "slides.html#quarto-basic-for-building-website-3",
+    "href": "slides.html#quarto-basic-for-building-website-3",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Quarto basic for building website",
+    "text": "Quarto basic for building website\n\nWithin this R chunk, everything is the same with writing a R script."
+  },
+  {
+    "objectID": "slides.html#what-do-all-the-different-files-do",
+    "href": "slides.html#what-do-all-the-different-files-do",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "What do all the different files do?",
+    "text": "What do all the different files do?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe index.qmd file is essential. When a qmd file is named as index, it will automatically be used as the home page.\nThe index.qmd file must be named exactly as it is index.qmd.\nThe index.qmd file must be placed in the root folder next to the _quarto.yml."
+  },
+  {
+    "objectID": "slides.html#what-do-all-the-different-files-do-1",
+    "href": "slides.html#what-do-all-the-different-files-do-1",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "What do all the different files do?",
+    "text": "What do all the different files do?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe about.qmd is the the About page in your website."
+  },
+  {
+    "objectID": "slides.html#what-do-all-the-different-files-do-2",
+    "href": "slides.html#what-do-all-the-different-files-do-2",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "What do all the different files do?",
+    "text": "What do all the different files do?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe _quarto.yml is the control center for our Quarto website.\nThe _quarto.yml uses YAML language and unifies all pages under one layout and configuration."
+  },
+  {
+    "objectID": "slides.html#what-do-all-the-different-files-do-3",
+    "href": "slides.html#what-do-all-the-different-files-do-3",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "What do all the different files do?",
+    "text": "What do all the different files do?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe styles.css is a custom CSS file to help make your website pretty.\nThis is where you can get creative and customised your website."
+  },
+  {
+    "objectID": "slides.html#what-do-all-the-different-files-do-4",
+    "href": "slides.html#what-do-all-the-different-files-do-4",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "What do all the different files do?",
+    "text": "What do all the different files do?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis _site folder will be automatically generated once you clicked the Render function.\n❌ DO NOT edit anything in the _site folder. But you can delete and re-render."
+  },
+  {
+    "objectID": "slides.html#how-do-it-all-come-together",
+    "href": "slides.html#how-do-it-all-come-together",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "How do it all come together?",
+    "text": "How do it all come together?\nmy-website/\n├── _quarto.yml       ← 🔧 Configuration file\n├── styles.css        ← 🎨 Custom styling (optional)\n├── index.qmd         ← 🏠 Home page\n├── about.qmd         ← 📄 Additional page\n└── _site/            ← 🌐 Rendered website output (auto-generated)\n\nThe goal today is to make sure that everyone will have a working website published on Github Page to take home!"
+  },
+  {
+    "objectID": "slides.html#some-code-for-your-terminal",
+    "href": "slides.html#some-code-for-your-terminal",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Some code for your terminal",
+    "text": "Some code for your terminal\n\nTo clone the Github Repo:\n\ngit clone https://github.com/yourusername/my-website.git\n\nPush to Github:\n\ngit add .\ngit commit -m \"Initial Quarto site\"\ngit push origin main\n\nAlternatively, you can use GitHub Desktop for Git management.\n\nPublish website\n\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "slides.html#more-about-quarto",
+    "href": "slides.html#more-about-quarto",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "More about Quarto",
+    "text": "More about Quarto\n\n\nTo learn more about Quarto see https://quarto.org.\nTo learn more about building website with Quarto see https://quarto.org/docs/websites/."
+  },
+  {
+    "objectID": "slides.html#acknowledgment",
+    "href": "slides.html#acknowledgment",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Acknowledgment",
+    "text": "Acknowledgment\n\n\nWe would like to thank DiUS for hosting us.\n\n\n\n\nWe would like to thank the Qurto developing team for making it possible!\n\n\n\n\nDaidai: danyang.dai@uq.edu.au\nKathleen: zeglinski.k@wehi.edu.au"
+  },
+  {
+    "objectID": "slides.html#lets-get-to-work",
+    "href": "slides.html#lets-get-to-work",
+    "title": "Creating simple websites with Quarto + GitHub Pages",
+    "section": "Let’s Get to Work!",
+    "text": "Let’s Get to Work!"
+  }
+]
