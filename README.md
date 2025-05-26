@@ -32,4 +32,4 @@ Kathleen is a postdoc at WEHI, focusing on antibody bioinformatics and long-read
 
 ### Slides for the workshop 
 
-[reating simple websites with Quarto + GitHub Pages](https://danyangdai.github.io/quarto-workshop-rladiesmelbourne/slides.html#/title-slide)
+[Creating simple websites with Quarto + GitHub Pages](https://danyangdai.github.io/quarto-workshop-rladiesmelbourne/slides.html#/title-slide)
