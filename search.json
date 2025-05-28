@@ -151,7 +151,7 @@
     "href": "slides.html#setting-up-git",
     "title": "Creating simple websites with Quarto + GitHub Pages",
     "section": "Setting up git",
-    "text": "Setting up git\nGit is probably already installed on your computer, but if not you should install it now.\nThen, we can use usethis to initialise git locally:\n\n# if you haven't installed 'usethis' before\ninstall.packages(\"usethis\")\n\n# setup git repo\nusethis::use_git()\n\nAnd put this local git repository onto GitHub:\n\nusethis::use_github()"
+    "text": "Setting up git\nGit is probably already installed on your computer, but if not you should install it now.\nThen, we can use usethis to initialise git locally:\n\n# if you haven't installed 'usethis' before\ninstall.packages(\"usethis\")\n\n# setup git repo\nusethis::use_git()\n\nAnd put this local git repository onto GitHub:\n\nusethis::use_github()\n\nIf you’ve never used git before, you might need to provide it with your details:\n\n# obviously change these to your own!!\nusethis::use_git_config(\n  user.name = \"kzeglinski\",\n  user.email = \"kathleen.j.zeglinski@gmail.com')"
   },
   {
     "objectID": "slides.html#setting-up-git-1",
